@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\SomeProjects\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\SomeProjects\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SomeProjects\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector.csproj",
+        "projectName": "BluetoothHeadphonesConnector",
+        "projectPath": "D:\\Projects\\SomeProjects\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector.csproj",
+        "packagesPath": "C:\\Users\\smartway.today\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SomeProjects\\BluetoothHeadphonesConnector\\BluetoothHeadphonesConnector\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\smartway.today\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.0.8:5555/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "InTheHand.Net.Bluetooth": {
+              "target": "Package",
+              "version": "[4.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
